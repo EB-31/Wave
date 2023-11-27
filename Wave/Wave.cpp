@@ -1,5 +1,7 @@
 ﻿#include <iostream>
 #include "windows.h"
+#include "Header.h"
+
 using namespace std;
 int main()
 {
@@ -9,11 +11,19 @@ int main()
         //нисходящая 
         for (int a = 10; a > 1; a--)
         {
-            string NegMultipleSpace (10 - a, ' ');
-            string MultipleSpace (a, ' ');
+            string NegMultipleSpace(10 - a, ' ');
+            string MultipleSpace(a, ' ');
             cout << ("." + MultipleSpace + Message + NegMultipleSpace + NegMultipleSpace + Message) << endl;
             Sleep(40);
         }
-        return 0;
+        //восходящая
+        for (int b = 1; b < 10; b++)
+        {
+            string NegMultipleSpace(10 - b, ' ');
+            string MultipleSpace(b, ' ');
+            cout << ("." + MultipleSpace + Message + NegMultipleSpace + NegMultipleSpace + Message) << endl;
+            Sleep(40);
+        }
     }
+    return 0;
 }
