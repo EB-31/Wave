@@ -24,6 +24,9 @@ int main()
             cout << ("." + MultipleSpace + Message + NegMultipleSpace + NegMultipleSpace + Message) << endl;
             Sleep(40);
         }
+        /*Первым шагом переходим в первое окно Visual Studio, где делаем 
+          небольшие изменения, комментируем их, фиксируем и отправляем 
+          на  Github. */
     }
     return 0;
 }
