@@ -7,4 +7,5 @@ void foo(int a)
     {
         std::cout << "hi" << "  ";
     }
-}
+    std::cout << std::endl << "Your number is " << a;
+}   
