@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-    string Message = "^";
+    string Message = "?";
     for (int j = 0; j < 8; j++)
     {
         //нисходящая 
@@ -22,11 +22,10 @@ int main()
             string NegMultipleSpace(10 - b, ' ');
             string MultipleSpace(b, ' ');
             cout << ("." + MultipleSpace + Message + NegMultipleSpace + NegMultipleSpace + Message) << endl;
-            Sleep(40);
+            Sleep (40);
         }
-        /*Первым шагом переходим в первое окно Visual Studio, где делаем 
-          небольшие изменения, комментируем их, фиксируем и отправляем 
-          на  Github. */
+        //Я не знаю что тут нужно, потому что на скрине ничего нет. Тут любое изменение нужно или что. Ну заменил я "^" на "?" и что? Это подходит?
+        //БОЛЬШЕ КОММЕНТАРИЕВ.
     }
     return 0;
 }
